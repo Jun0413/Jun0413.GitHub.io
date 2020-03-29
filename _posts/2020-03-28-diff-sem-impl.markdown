@@ -2,7 +2,7 @@
 title: "(In)correctness in Semaphore Implementation"
 layout: post
 date: 2020-03-28 23:59
-image: /assets/images/semaphore.jpg
+image: https://jun0413.github.io/indigo/assets/images/semaphore.jpg
 headerImage: true
 tag:
 - OS

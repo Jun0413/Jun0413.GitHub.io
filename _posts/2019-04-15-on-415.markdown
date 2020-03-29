@@ -2,7 +2,7 @@
 title: "写在肆幺伍"
 layout: post
 date: 2019-04-15 00:00
-image: /assets/images/415.jpg
+image: https://jun0413.github.io/indigo/assets/images/415.jpg
 headerImage: true
 tag:
 - graduate school

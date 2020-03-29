@@ -2,7 +2,7 @@
 title: "Hack & Roll 2019"
 layout: post
 date: 2019-01-22 01:03
-image: /assets/images/hacknroll.png
+image: https://jun0413.github.io/indigo/assets/images/hacknroll.png
 headerImage: true
 tag:
 - game dev

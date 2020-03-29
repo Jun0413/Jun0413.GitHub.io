@@ -31,6 +31,6 @@ layout: page
 <h3>Recent Visitors</h3>
 <div style="display: flex; justify-content: center">
 	<div style="width: 20%">
-	<script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=39ivbsyJUieRky9D-EVecDgUxYAx4DxjP48xJmRhxDU"></script>
+	<script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=idrFjZOz1ALuT93on8AiyiMCHpw2G9OW-P5xt5Y_CP8"></script>
 	</div>
 </div>

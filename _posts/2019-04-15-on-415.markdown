@@ -1,0 +1,43 @@
+---
+title: "写在肆幺伍"
+layout: post
+date: 2019-04-15 00:00
+image: /assets/images/415.jpg
+headerImage: true
+tag:
+- graduate school
+- 感想总结
+category: blog
+author: junhao
+description: N.A.
+---
+
+## 前言
+从Gatech交换回来之后，萌生了要去美国读CS硕士的这个想法。于是找了留学中介咨询，亲身经历证明找中介不如不找，DIY效率高，省心还省钱。本文就简单记录一下我的申请。
+
+## 选校和结果
+一开始没有做research，照着US News ranking瞎选了一通。幸好之后DIY，疯狂收集信息，并确立了自己读master的目标，才算是制定了一份比较符合自己的选校/项目名单，虽然也漏了UMich🤦‍♂️：
+
+- AD: USC MSCS (Scientist and Engineers), **UCSD MSCS**, Rice MCS, Gatech MSCS, Brown ScM, Columbia MSCS, NUS MComp
+- REJ: Upenn MSCS, UCLA MSCS, UIUC MCS
+- WL: CMU INI (No response => REJ), UChicago MSCS (WL => REJ)
+
+鉴于我对自己水平的认知，结果还是很满意的。稍微有点后悔的是UCLA和INI，这俩ddl都太早了，所以当时准备不足，大四上的成绩也没出。UCLA的文书基本等于瞎写，如果像Gatech那样写加上大四上的课程似乎有戏。INI的话不应该申MSIN的，应该申MOB。无论如何，我目前还是非常认可UCSD的。还有就是心疼一波哥大的deposit。
+
+## 选UCSD的理由
+从我的AD来看，比较明显的是要在UCSD，Gatech，Brown和哥大纠结。父母的意见是让我根据名气选哥大，同学的意见基本是如果为了学术还是要去Gatech。理性地说，从**地理位置**，专排，校友，性价比来看，我选择UCSD。然而实际上，我只是觉得有一个声音引导我去SD，毕竟也只活这一次，还是不想再作出后悔的决定了。
+
+<div style="display: flex; justify-content: center">
+    <div style="width: 80%; height: 80%">
+        <img class="image" src="{{ site.url }}/assets/images/ucsd.jpg">
+        <figcaption class="caption">Geisel Library (by Junhao)</figcaption>
+    </div>
+</div>
+
+## 推荐信
+
+真的非常幸运，三位给我写推荐信的老板加教授都是特别特别好的人。特别是实习的manager，亲自写了两大页。感动😭
+
+## 成绩
+
+GPA方面也是非常幸运，NTU的课程简单给分也高。GRE准备了四个月左右，所以还是比较稳的，初考331+4。托福玩了一波骚操作，大三上期末考完三天后去考，之前literally 0准备，就趁着那三天刷了几套TPO，然后勉强达标105，刚好是Brown的分数线（笑）。

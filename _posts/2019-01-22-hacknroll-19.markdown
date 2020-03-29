@@ -1,0 +1,44 @@
+---
+title: "Hack & Roll 2019"
+layout: post
+date: 2019-01-22 01:03
+image: /assets/images/hacknroll.png
+headerImage: true
+tag:
+- game dev
+- hackathon
+category: blog
+author: junhao
+description: N.A.
+---
+
+## Intro & Ideas
+This is the first time I participated in the Hack & Roll. Held in NUS from Jan 19, it is known as the biggest student-run hackathon in Singapore. The reason why I like hackathon is that I can always learn new technologies and take the 24-hour chance to build something I find interesting or I could have fun with. With this motivation, I wanted to do something different this time.
+
+While brainstorming, we had a lot of ideas - some of them are:
+
+- An Alexa-driven rubber duck that answers to technical questions by searching on StackOverflow (inspired by rubber duck debugging 😂)
+- A CLI program that allow user to push encrypted codes to GitHub which can only be decrypted by verification through a Chrome extension (Darn...GitHub now made private repo available to all users)
+- Visualization of git history (feel our love for git 😜)
+- A real random number generator using Quantum algorithms on QISKit (sound cool tho and probably could win that "most awesomely useless prize")
+- ...
+
+Anyway, I brought up an idea that everyone was excited about - develop 2D games on **TOUCH BAR!**
+
+We really liked this idea because firstly it sounded hacky and unique, and secondly we had no experience with **Swift** and **SpriteKit**, so we could really learned something new!!
+
+Finally, we decided to make two games on touch bar. One is the well-known Flappy Bird and the other one is whac-a-mole, but with Gopher sprites instead. Some guy just liked Go very much.
+
+## Demo
+Check out our demo video below
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fxGHLVe4rpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Also, we have described our games on Devpost with details. We put up a photo gallery on it as well! Find out more [here](https://devpost.com/software/games-on-touch-bar).
+
+Lastly, the source codes are available on GitHub:
+
+- [Touch Bar Flappy Bird](https://github.com/Jun0413/touchbar-flappy-bird)
+- [Touch Bar Gopher Smack](https://github.com/Lancerchiang/TouchBarGopher)
+
+You can find links for downloading executables in the README in repos, as long as you could run the game! If not, you'll have to clone the code repo, open Xcode and run them on simulator.

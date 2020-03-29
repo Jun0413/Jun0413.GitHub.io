@@ -1,0 +1,53 @@
+---
+title: "Facebook Singapore Hack"
+layout: post
+date: 2018-09-15 23:57
+# image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- web
+- hackathon
+category: blog
+author: junhao
+description: N.A.
+---
+
+<div style="align: center">
+    <img class="image" src="{{ site.url }}/assets/images/fb-hack.jpeg" alt="会场照片">
+    <figcaption class="caption">Start!</figcaption>
+</div>
+
+## Intro
+Facebook held a nationwide hackathon from 8th noon to 9th noon September in Singapore. It was a 24 hour event and the first ever hackathon I participated in. With huge popularity yet limited capacity, applicants even needed to pass an online coding challenge in order to get in. However, it was a no-brainer problem that asked you to decide whether an array of 3 could form a valid triangle, but they seemed to take your time to finish as one of the metrics because I was waitlisted till the last minute before event.
+
+## Idea
+Our team came up with the idea of building a messenger bot, that automatically scheduled events based on what was discussed in the group chat, and presented that scheduling in a gantt chart. Technically, there are following modules:
+
+{% highlight raw %}
+- Language Understanding (LU): to capture events information
+- Event Scheduling Algorithm:  to generate the arrangements based on event date times
+- Web UIs and data exchange:   to get chats data and display the gantt chart
+{% endhighlight %}
+
+Since the LU is sort of "overloaded" for a hackathon project, so for demo purpose we limited our usecase to be birthday party planning. Here, the painpoint is that there are a couple of events to be done to prepare for a birthday party: ordering cake, decorating the house, buying gifts and so on. Each activity is assigned to some people to be done within a period of time. Events can also have inter-dependencies. The efficiency can be improved if there is a feature (on top of the messenger app) that could help automatically plan for the group and show the diagram in real time. This was our incentive, so we named our project **Alfred**, hoping it would serve everyone just like Alfred Pennyworth does for Batman.
+
+<div style="align: center">
+    <img class="image" src="{{ site.url }}/assets/images/alfred.jpeg">
+    <figcaption class="caption">Alfred Web UI</figcaption>
+</div>
+
+## How
+For implementation, we relied on a bunch of tools. We used [DialogFlow](https://dialogflow.com/) for the LU and we used [Frappe JS CDN](https://github.com/frappe/gantt) to draw the gantt chart. In the team, I was responsible for extracting group chat data and building the web UIs. The difficulty here was that the native messenger bot was not supported in group chat, so our workaround was to let users chat to the Alfred bot and I created a group chat web UI component which looked exactly the same as messenger's and also displayed everyone's conversations as if it was in a group chat.
+
+The messages are sent to DialogFlow via webhook, in order to get necessary data to make scheduling decisions (such as event names and durations). These data are sent to persist in Firebase again via webhook, which are fed into our scheduling algorithm, which support two modes, either *safe* (stacking activities as early as possible to avoid missing deadline), or *slack* (leaving more slack and generates a more balanced-look schedule).
+
+## Last words
+Sadly, we did not get into the top 3. I could sense this when working on it because our painpoint does not seem highly convincible and we had to make a mock-up page as we did not have a thorough feasibility investigation beforehand. However, I really enjoyed the event because I have learned many a full-stack tools. I got to know [Serveo.net](http://serveo.net/), which became crucially useful in my final year project.
+
+**Source code**: https://github.com/Jun0413/Alfred
+
+<div style="display: flex; justify-content: center">
+    <div style="width: 60%; height: 60%">
+        <img class="image" src="{{ site.url }}/assets/images/fb-emoticons.jpeg">
+    </div>
+</div>

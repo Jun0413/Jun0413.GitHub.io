@@ -5,3 +5,4 @@ Gemfile.lock
 .bundle
 vendor/
 post_templates
+.vscode

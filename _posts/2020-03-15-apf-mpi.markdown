@@ -1,0 +1,15 @@
+---
+title: "MPI-based APF solver"
+layout: post
+date: 2020-03-15 01:33
+tag:
+- c++
+- mpi
+- parallel computation
+projects: true
+hidden: true
+description:
+category: project
+author: junhao
+externalLink: https://github.com/Jun0413/apf-mpi
+---

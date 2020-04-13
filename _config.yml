@@ -35,7 +35,6 @@ disqus:
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
-# twitter: mytwitter
 # instagram: myinstagram
 # pinterest: mypinterest
 linkedin: zengjunhao
@@ -51,6 +50,7 @@ github: Jun0413
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: rickzengjunhao@gmail.com
+twitter: Rickzengjunhao
 
 authors:
     junhao:

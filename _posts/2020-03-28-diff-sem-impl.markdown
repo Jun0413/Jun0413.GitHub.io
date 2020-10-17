@@ -99,7 +99,7 @@ signal(sem s) {
 
 This is logically correct. But it is **wrong**. The tricky part here is to account for context switching.
 
-Assume that this is a binary semaphore and the CPU can only execute one process at a time. Initially, process A enters into the critical section, so newly arrived process B has to wait and it is blocked at breakpoint 2. Now process C finishes and calls signal(s). Semaphore gets incremented and process B is unblocked. But before process B continues from breakpoint 2, a new process C arrives, which sees semaphore equal to 1 at breakpoint 1, thus will also enter into the critical section. As such, mutual exclusion of B and C fail.
+Assume that this is a binary semaphore and the CPU can only execute one process at a time. Initially, process A enters into the critical section, so newly arrived process B has to wait and it is blocked at breakpoint 2. Now process A finishes and calls signal(s). Semaphore gets incremented and process B is unblocked. But before process B continues from breakpoint 2, a new process C arrives, which sees semaphore equal to 1 at breakpoint 1, thus will also enter into the critical section. As such, mutual exclusion of B and C fail.
 
 We may wonder, if context switching can happen during wait(s) and signal(s) operations, which are supposed to be atomic, wouldn't the 1st implementation also fails?
 
